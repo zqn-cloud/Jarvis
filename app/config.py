@@ -5,16 +5,16 @@ load_dotenv()
 
 class Config:
     # # OpenAI 配置
-    # OPENAI_API_BASE = os.getenv("OPENAI_API_BASE", "https://api.openai.com/v1")
-    # OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-ZPLgXrScHigy0qaE022467729dAd4325B223A487DaA7E189")
+    # OPENAI_API_BASE = os.getenv("OPENAI_API_BASE", "")
+    # OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
     MODEL = os.getenv("MODEL", "gpt-3.5-turbo")
     
-    os.environ["OPENAI_API_BASE"] = 'https://xiaoai.plus/v1'
-    os.environ["OPENAI_API_KEY"] = 'sk-ZPLgXrScHigy0qaE022467729dAd4325B223A487DaA7E189'
-    os.environ["OPENWEATHER_API_KEY"] = '949fb231b7b49c897cc05d449193fcc7'
+    os.environ["OPENAI_API_BASE"] = ''
+    os.environ["OPENAI_API_KEY"] = ''
+    os.environ["OPENWEATHER_API_KEY"] = ''
 
     # 天气 API
-    OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "949fb231b7b49c897cc05d449193fcc7")
+    OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "")
     
     # 服务器配置
     HOST = os.getenv("HOST", "0.0.0.0")
