@@ -9,9 +9,9 @@ from app.tools.time_tool import get_current_time, parse_time_expression
 from app.tools.calendar_tool import create_calendar_event, get_calendar_events
 from app.config import config
 
-os.environ["OPENAI_API_BASE"] = 'https://xiaoai.plus/v1'
-os.environ["OPENAI_API_KEY"] = 'sk-ZPLgXrScHigy0qaE022467729dAd4325B223A487DaA7E189'
-os.environ["OPENWEATHER_API_KEY"] = '949fb231b7b49c897cc05d449193fcc7'
+os.environ["OPENAI_API_BASE"] = ''
+os.environ["OPENAI_API_KEY"] = 'sk-'
+os.environ["OPENWEATHER_API_KEY"] = ''
 
 
 class JarvisAgent:
